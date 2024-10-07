@@ -1,3 +1,5 @@
+package Array;
+
 public class ArrayMultiDimensi1 {
     public static void main(String[] args) {
         //Deklarasi array multidimensi
