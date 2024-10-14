@@ -1,11 +1,11 @@
 package LinkedList1;
 
 public class LinkedList1 {
-    public ListString head;
-    public ListString tail;
+    public ListInt head;
+    public ListInt tail;
 
     public void insertFront(int value) {
-        ListString baru = new ListString(value);
+        ListInt baru = new ListInt(value);
         baru.right = head;
         if (head == null) {
             head.left = baru;
@@ -17,7 +17,7 @@ public class LinkedList1 {
     }
 
     public void insertBack(int value) {
-        ListString baru = new ListString(value);
+        ListInt baru = new ListInt(value);
         baru.left = tail;
         if (tail == null) {
             tail.right = baru;
@@ -30,7 +30,7 @@ public class LinkedList1 {
 
     public int removeFront(){
         if (head != null) {
-            ListString temp = head;
+            ListInt temp = head;
             head = head.right;
             if (head != null) {
                 head.left = null;
@@ -44,7 +44,7 @@ public class LinkedList1 {
 
     public int removeBack(){
         if (tail != null) {
-            ListString temp = tail;
+            ListInt temp = tail;
             tail = tail.left;
             if (tail != null) {
                 tail.right = null;
