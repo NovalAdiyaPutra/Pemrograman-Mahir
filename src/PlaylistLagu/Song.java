@@ -6,5 +6,6 @@ public class Song {
 
     public Song(String title) {
         this.title = title;
+        this.next = null;
     }
 }

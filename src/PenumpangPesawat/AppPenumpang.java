@@ -8,6 +8,7 @@ public class AppPenumpang {
         penumpang.addPassenger("Fayi Zainul Abidin");
         penumpang.addPassenger("Alzi Nashwa Sugra");
         penumpang.addPassenger("Kak Gem");
+        penumpang.addPassenger("Salsabilah Amalia");
 
         penumpang.removePassenger("Kak Gem");
 

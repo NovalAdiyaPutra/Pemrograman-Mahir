@@ -1,31 +1,31 @@
 package PlaylistLagu;
 
 public class Playlist {
-    public Song head;
+    private Song head;
 
     public Playlist() {
         this.head = null;
     }
 
-    // Metode untuk menambah lagu di akhir playlist (Linked List)
     public void addSong(String title) {
         Song newSong = new Song(title);
-        if (head == null) { // Jika playlist kosong
+        if (head == null) {
             head = newSong;
         } else {
             Song current = head;
-            while (current.next != null) { // Iterasi sampai node terakhir
+            while (current.next != null) {
                 current = current.next;
             }
-            current.next = newSong; // Tambahkan node baru di akhir
+            current.next = newSong;
         }
     }
 
-    // Metode untuk menampilkan semua lagu di playlist
     public void displayPlaylist() {
         if (head == null) {
             System.out.println("Playlist Kosong");
         } else {
+            System.out.println("Playlist Anda : ");
+            System.out.println(" ");
             Song current = head;
             while (current != null) {
                 System.out.println(current.title);

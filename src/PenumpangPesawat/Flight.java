@@ -1,10 +1,7 @@
 package PenumpangPesawat;
 
-import PlaylistLagu.Song;
-
 public class Flight {
-    public Passenger head;
-    public Passenger tail;
+    private Passenger head;
 
     public Flight() {
         this.head = null;
@@ -43,7 +40,7 @@ public class Flight {
         }
 
         if (current == null) {
-            System.out.println("Penumpang Tidak Ditemukan.");
+            System.out.println("Penumpang atas nama " +name +" Tidak Ditemukan.");
             return;
         }
 

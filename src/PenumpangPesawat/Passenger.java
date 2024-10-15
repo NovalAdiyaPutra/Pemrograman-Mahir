@@ -6,5 +6,6 @@ public class Passenger {
 
     public Passenger (String name){
         this.name = name;
+        this.next = null;
     }
 }
