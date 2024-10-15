@@ -51,6 +51,7 @@ public class Flight {
         if (head == null) {
             System.out.println("Daftar Penumpang Tidak Ada");
         } else {
+            System.out.println("Daftar Penumpang: ");
             Passenger current = head;
             while (current != null) {
                 System.out.println(current.name);
