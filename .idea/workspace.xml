@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/Stack/AppBalancedSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/AppReversing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/AppReversingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/AppStackGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/BalancedSymbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Reversing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/ReversingString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackBiasa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StackGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/AppStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/AppStackBiasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlaylistLagu/AppPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlaylistLagu/AppPlaylist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +32,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.App1.executor": "Debug",
-    "Application.AppBalancedSymbol.executor": "Run",
-    "Application.AppPenumpang.executor": "Run",
-    "Application.AppPlaylist.executor": "Run",
-    "Application.AppStack.executor": "Run",
-    "Application.AppStack04.executor": "Run",
-    "Application.AppStack4.executor": "Run",
-    "Application.AppStackBiasa.executor": "Run",
-    "Application.AppStackGeneric.executor": "Run",
-    "Application.AppStackString.executor": "Run",
-    "Application.Array.ElemenTerbesar.executor": "Run",
-    "Application.ArrayMultiDimensi.executor": "Run",
-    "Application.ArrayMultiDimensi1.executor": "Run",
-    "Application.ArrayString.executor": "Debug",
-    "Application.ContohStatic.executor": "Run",
-    "Application.DeklarasiArray.executor": "Run",
-    "Application.DuplikasiArray.executor": "Run",
-    "Application.ElemenTerbesar.executor": "Run",
-    "Application.FibonaciPerulangan.executor": "Run",
-    "Application.FibonaciTailRekursif.executor": "Run",
-    "Application.GeserElemen.executor": "Run",
-    "Application.JadwalKuliah.executor": "Run",
-    "Application.OutputB.executor": "Run",
-    "Application.PamgkatRekursif.executor": "Debug",
-    "Application.PangkatRekursif.executor": "Debug",
-    "Application.PerbedaanDuaArray.executor": "Run",
-    "Application.UrutanRekursif.executor": "Run",
-    "Application.array.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Intelj/Pemrograman Mahir",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Intelj/Pemrograman Mahir/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.App1.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AppBalancedSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppPenumpang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppPlaylist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStack04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStack4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStackBiasa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStackGeneric.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppStackString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array.ElemenTerbesar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMultiDimensi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayMultiDimensi1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ContohStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeklarasiArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplikasiArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElemenTerbesar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonaciPerulangan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonaciTailRekursif.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeserElemen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JadwalKuliah.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OutputB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PamgkatRekursif.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PangkatRekursif.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PerbedaanDuaArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UrutanRekursif.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Intelj/Pemrograman Mahir&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Intelj/Pemrograman Mahir/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AppBalancedSymbol">
+}</component>
+  <component name="RunManager" selected="Application.AppPlaylist">
     <configuration name="AppBalancedSymbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.AppBalancedSymbol" />
       <module name="Pemrograman Mahir" />
@@ -101,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppReversing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.AppReversing" />
+    <configuration name="AppPenumpang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PenumpangPesawat.AppPenumpang" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="PenumpangPesawat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppReversingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.AppReversingString" />
+    <configuration name="AppPlaylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlaylistLagu.AppPlaylist" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="PlaylistLagu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppPlaylist" />
+        <item itemvalue="Application.AppPenumpang" />
         <item itemvalue="Application.AppBalancedSymbol" />
         <item itemvalue="Application.AppStackBiasa" />
         <item itemvalue="Application.AppStackGeneric" />
-        <item itemvalue="Application.AppReversingString" />
-        <item itemvalue="Application.AppReversing" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +189,8 @@
       <workItem from="1728286627424" duration="1105000" />
       <workItem from="1728297675636" duration="6025000" />
       <workItem from="1728892421565" duration="1665000" />
-      <workItem from="1728949385711" duration="8262000" />
+      <workItem from="1728949385711" duration="9185000" />
+      <workItem from="1729043187815" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -265,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728952044385</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first">
+      <option name="closed" value="true" />
+      <created>1728966119069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728966119069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
