@@ -24,7 +24,7 @@ public class Playlist {
         if (head == null) {
             System.out.println("Playlist Kosong");
         } else {
-            System.out.println("Playlist Anda : ");
+            System.out.println("Berikut Playlist Anda : ");
             System.out.println(" ");
             Song current = head;
             while (current != null) {
