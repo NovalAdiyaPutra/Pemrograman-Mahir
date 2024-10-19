@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first" />
+    <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/TugasStack/FileSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TugasStack/RiwayatBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TugasStack/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,12 +63,15 @@
     &quot;Application.ElemenTerbesar.executor&quot;: &quot;Run&quot;,
     &quot;Application.FibonaciPerulangan.executor&quot;: &quot;Run&quot;,
     &quot;Application.FibonaciTailRekursif.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileSplitter.executor&quot;: &quot;Run&quot;,
     &quot;Application.GeserElemen.executor&quot;: &quot;Run&quot;,
     &quot;Application.JadwalKuliah.executor&quot;: &quot;Run&quot;,
     &quot;Application.OutputB.executor&quot;: &quot;Run&quot;,
     &quot;Application.PamgkatRekursif.executor&quot;: &quot;Debug&quot;,
     &quot;Application.PangkatRekursif.executor&quot;: &quot;Debug&quot;,
     &quot;Application.PerbedaanDuaArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RiwayatBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextEditor.executor&quot;: &quot;Run&quot;,
     &quot;Application.UrutanRekursif.executor&quot;: &quot;Run&quot;,
     &quot;Application.array.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -80,20 +88,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AppPlaylist">
-    <configuration name="AppGenericQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.AppGenericQueue" />
-      <module name="Pemrograman Mahir" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FileSplitter">
     <configuration name="AppPenumpang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PenumpangPesawat.AppPenumpang" />
       <module name="Pemrograman Mahir" />
@@ -120,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppQueueArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.AppQueueArray" />
+    <configuration name="FileSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasStack.FileSplitter" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="TugasStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +128,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppStringQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.AppStringQueue" />
+    <configuration name="RiwayatBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasStack.RiwayatBrowser" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="TugasStack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasStack.TextEditor" />
+      <module name="Pemrograman Mahir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TugasStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppPlaylist" />
-        <item itemvalue="Application.AppGenericQueue" />
-        <item itemvalue="Application.AppStringQueue" />
-        <item itemvalue="Application.AppQueueArray" />
+        <item itemvalue="Application.FileSplitter" />
+        <item itemvalue="Application.TextEditor" />
+        <item itemvalue="Application.RiwayatBrowser" />
         <item itemvalue="Application.AppPenumpang" />
+        <item itemvalue="Application.AppPlaylist" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +203,8 @@
       <workItem from="1728949385711" duration="9185000" />
       <workItem from="1729043187815" duration="392000" />
       <workItem from="1729291534263" duration="5374000" />
-      <workItem from="1729302608313" duration="322000" />
+      <workItem from="1729302608313" duration="7374000" />
+      <workItem from="1729320545732" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -293,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729302661647</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first">
+      <option name="closed" value="true" />
+      <created>1729302959672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729302959672</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first">
+      <option name="closed" value="true" />
+      <created>1729303033089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729303033089</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
