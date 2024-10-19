@@ -13,7 +13,6 @@ public class AppPlaylist {
         lagu.addSong("Cupid - Fifty Fifty");
         lagu.addSong("How You Like That - BlackPink");
         lagu.addSong("Mago - Gfriend");
-        lagu.addSong("How You Like That - BlackPink");
         lagu.addSong("Dice - Nmixx");
 
         lagu.displayPlaylist();
