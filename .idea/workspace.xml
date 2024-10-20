@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TugasStack/FileSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasFileSplit/FileSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TugasStack/RiwayatBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasBrowserHistory/BrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TugasStack/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasTextEditor/TextEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TugasStack.FileSplitter" />
+    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasBrowserHistory.BrowserHistory" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TugasStack.*" />
+          <option name="PATTERN" value="TugasBrowserHistory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiwayatBrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TugasStack.RiwayatBrowser" />
+    <configuration name="FileSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasFileSplit.FileSplitter" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TugasStack.*" />
+          <option name="PATTERN" value="TugasBrowserHistory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
       </method>
     </configuration>
     <configuration name="TextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TugasStack.TextEditor" />
+      <option name="MAIN_CLASS_NAME" value="TugasTextEditor.TextEditor" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TugasStack.*" />
+          <option name="PATTERN" value="TugasBrowserHistory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,7 +157,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileSplitter" />
-        <item itemvalue="Application.RiwayatBrowser" />
+        <item itemvalue="Application.BrowserHistory" />
         <item itemvalue="Application.TextEditor" />
         <item itemvalue="Application.AppPenumpang" />
         <item itemvalue="Application.AppPlaylist" />
@@ -206,6 +209,8 @@
       <workItem from="1729391548238" duration="29000" />
       <workItem from="1729391763824" duration="126000" />
       <workItem from="1729391923080" duration="32000" />
+      <workItem from="1729392126597" duration="145000" />
+      <workItem from="1729421385684" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -359,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729391389927</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="first">
+      <option name="closed" value="true" />
+      <created>1729392239311</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729392239311</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

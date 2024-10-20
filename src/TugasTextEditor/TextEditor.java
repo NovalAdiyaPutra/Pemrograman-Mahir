@@ -1,4 +1,4 @@
-package TugasStack;
+package TugasTextEditor;
 import java.util.Stack;
 
 public class TextEditor {
@@ -48,18 +48,15 @@ public class TextEditor {
     public static void main(String[] args) {
         TextEditor editor = new TextEditor();
 
-        // Operasi tulis langsung ke dalam kode
         editor.write("Hai! Noval Adiya Putra");
         editor.show();
 
         editor.write(" . Selamat datang.");
         editor.show();
 
-        // Operasi undo
         editor.undo();
         editor.show();
 
-        // Operasi redo
         editor.redo();
         editor.show();
     }

@@ -1,11 +1,11 @@
-package TugasStack;
+package TugasBrowserHistory;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class RiwayatBrowser {
+public class BrowserHistory {
     private Stack<String> riwayat;
 
-    public RiwayatBrowser() {
+    public BrowserHistory() {
         riwayat = new Stack<>();
     }
 
@@ -34,7 +34,7 @@ public class RiwayatBrowser {
     }
 
     public static void main(String[] args) {
-        RiwayatBrowser riwayatBrowser = new RiwayatBrowser();
+        BrowserHistory riwayatBrowser = new BrowserHistory();
         Scanner scanner = new Scanner(System.in);
         int pilihan;
 

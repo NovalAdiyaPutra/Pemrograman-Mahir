@@ -1,4 +1,4 @@
-package TugasStack;
+package TugasFileSplit;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.LinkedList;
