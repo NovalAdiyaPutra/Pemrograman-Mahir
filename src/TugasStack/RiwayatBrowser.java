@@ -3,22 +3,18 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class RiwayatBrowser {
-    // Menggunakan Stack untuk menyimpan riwayat
     private Stack<String> riwayat;
 
-    // Konstruktor
     public RiwayatBrowser() {
         riwayat = new Stack<>();
     }
 
-    // Fungsi untuk menambahkan website baru ke riwayat (browse)
-    public void jelajah(String website) {
+    public void browse(String website) {
         riwayat.push(website);
         System.out.println("Menjelajah ke: " + website);
     }
 
-    // Fungsi untuk kembali ke website sebelumnya dan menghapus riwayat terakhir (back)
-    public void kembali() {
+    public void back() {
         if (riwayat.isEmpty()) {
             System.out.println("Tidak ada riwayat untuk kembali!");
         } else {
@@ -26,8 +22,7 @@ public class RiwayatBrowser {
         }
     }
 
-    // Fungsi untuk menampilkan semua riwayat dari yang paling baru (view)
-    public void lihat() {
+    public void view() {
         if (riwayat.isEmpty()) {
             System.out.println("Tidak ada riwayat penjelajahan.");
         } else {
@@ -51,19 +46,19 @@ public class RiwayatBrowser {
             System.out.println("4. Exit");
             System.out.print("Pilih Opsi: ");
             pilihan = scanner.nextInt();
-            scanner.nextLine();  // Konsumsi newline
+            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
                     System.out.print("Masukkan URL website: ");
                     String website = scanner.nextLine();
-                    riwayatBrowser.jelajah(website);
+                    riwayatBrowser.browse(website);
                     break;
                 case 2:
-                    riwayatBrowser.lihat();
+                    riwayatBrowser.view();
                     break;
                 case 3:
-                    riwayatBrowser.kembali();
+                    riwayatBrowser.back();
                     break;
                 case 4:
                     System.out.println("Keluar...");
