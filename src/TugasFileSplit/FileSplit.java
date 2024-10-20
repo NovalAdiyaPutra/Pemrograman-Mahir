@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class FileSplitter {
+public class FileSplit {
     public static String bacaFile(String pathFile) throws FileNotFoundException {
         StringBuilder kontenFile = new StringBuilder();
         File file = new File(pathFile);
