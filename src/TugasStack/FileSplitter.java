@@ -6,14 +6,13 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class FileSplitter {
-
-    // Fungsi untuk membaca isi file dan mengembalikan teks sebagai String
+    // Method untuk membaca isi file dan mengembalikannya sebagai sebuah string
     public static String bacaFile(String pathFile) throws FileNotFoundException {
         StringBuilder kontenFile = new StringBuilder();
         File file = new File(pathFile);
         Scanner fileScanner = new Scanner(file);
 
-        // Membaca isi file baris demi baris
+        // Membaca file baris per baris
         while (fileScanner.hasNextLine()) {
             kontenFile.append(fileScanner.nextLine()).append("\n");
         }
@@ -22,20 +21,32 @@ public class FileSplitter {
         return kontenFile.toString();
     }
 
-    // Fungsi untuk memotong teks menjadi beberapa bagian dan menyimpannya dalam Queue
+    // Method untuk memotong teks menjadi beberapa bagian berdasarkan jumlah baris
     public static Queue<String> potongTeks(String teks, int ukuranBagian) {
         Queue<String> bagianQueue = new LinkedList<>();
-        int panjangTeks = teks.length();
-        int indeksMulai = 0;
+        Scanner teksScanner = new Scanner(teks);
+        StringBuilder bagian = new StringBuilder();
+        int jumlahBaris = 0;
 
-        // Memotong teks berdasarkan ukuranBagian dan memasukkannya ke dalam Queue
-        while (indeksMulai < panjangTeks) {
-            int indeksAkhir = Math.min(indeksMulai + ukuranBagian, panjangTeks);
-            String bagian = teks.substring(indeksMulai, indeksAkhir);
-            bagianQueue.add(bagian);
-            indeksMulai = indeksAkhir;
+        // Membaca teks baris per baris dan memotong sesuai dengan ukuranBagian
+        while (teksScanner.hasNextLine()) {
+            bagian.append(teksScanner.nextLine()).append("\n");
+            jumlahBaris++;
+
+            // Jika sudah mencapai jumlah baris yang diinginkan, tambahkan ke Queue
+            if (jumlahBaris == ukuranBagian) {
+                bagianQueue.add(bagian.toString());
+                bagian.setLength(0); // Reset StringBuilder untuk bagian selanjutnya
+                jumlahBaris = 0;
+            }
         }
 
+        // Menambahkan sisa baris yang belum masuk ke bagian
+        if (bagian.length() > 0) {
+            bagianQueue.add(bagian.toString());
+        }
+
+        teksScanner.close();
         return bagianQueue;
     }
 
@@ -50,18 +61,18 @@ public class FileSplitter {
             // Membaca isi file
             String teks = bacaFile(pathFile);
 
-            // Meminta input ukuran bagian dari pengguna
-            System.out.print("Masukkan ukuran bagian (jumlah karakter per bagian): ");
+            // Meminta input ukuran potongan (jumlah baris per bagian)
+            System.out.print("Masukkan ukuran bagian (jumlah baris per bagian): ");
             int ukuranBagian = inputScanner.nextInt();
 
-            // Memotong file menjadi beberapa bagian
+            // Memotong teks menjadi beberapa bagian
             Queue<String> bagianQueue = potongTeks(teks, ukuranBagian);
 
-            // Menampilkan hasil potongan teks
+            // Menampilkan setiap bagian
             int bagianKe = 1;
             while (!bagianQueue.isEmpty()) {
                 System.out.println("\nBagian " + bagianKe + ":");
-                System.out.println(bagianQueue.poll()); // Mengambil dan menampilkan setiap bagian dari Queue
+                System.out.println(bagianQueue.poll());
                 bagianKe++;
             }
 

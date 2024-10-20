@@ -12,7 +12,7 @@ public class TextEditor {
         teksSaatIni = "";
     }
 
-    public void tulis(String teksBaru) {
+    public void write(String teksBaru) {
         undoStack.push(teksSaatIni);
         teksSaatIni += teksBaru;
         redoStack.clear();
@@ -39,7 +39,7 @@ public class TextEditor {
         }
     }
 
-    public void tampilkan() {
+    public void show() {
         System.out.print("Teks Saat Ini: ");
         System.out.println(teksSaatIni.isEmpty() ? "(kosong)" : teksSaatIni);
         System.out.println(" ");
@@ -49,18 +49,18 @@ public class TextEditor {
         TextEditor editor = new TextEditor();
 
         // Operasi tulis langsung ke dalam kode
-        editor.tulis("Hai! Noval Adiya Putra");
-        editor.tampilkan();
+        editor.write("Hai! Noval Adiya Putra");
+        editor.show();
 
-        editor.tulis(" Selamat datang.");
-        editor.tampilkan();
+        editor.write(" . Selamat datang.");
+        editor.show();
 
         // Operasi undo
         editor.undo();
-        editor.tampilkan();
+        editor.show();
 
         // Operasi redo
         editor.redo();
-        editor.tampilkan();
+        editor.show();
     }
 }

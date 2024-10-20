@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TugasStack/RiwayatBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasStack/RiwayatBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TugasStack/FileSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasStack/FileSplitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TugasStack/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TugasStack/TextEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AppPenumpang">
+  <component name="RunManager" selected="Application.FileSplitter">
     <configuration name="AppPenumpang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PenumpangPesawat.AppPenumpang" />
       <module name="Pemrograman Mahir" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileSplitter" />
+        <item itemvalue="Application.RiwayatBrowser" />
+        <item itemvalue="Application.TextEditor" />
         <item itemvalue="Application.AppPenumpang" />
         <item itemvalue="Application.AppPlaylist" />
-        <item itemvalue="Application.RiwayatBrowser" />
-        <item itemvalue="Application.FileSplitter" />
-        <item itemvalue="Application.TextEditor" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +204,7 @@
       <workItem from="1729291534263" duration="5374000" />
       <workItem from="1729302608313" duration="7374000" />
       <workItem from="1729320545732" duration="1272000" />
-      <workItem from="1729386449871" duration="1741000" />
+      <workItem from="1729386449871" duration="4658000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -334,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729386945925</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="first">
+      <option name="closed" value="true" />
+      <created>1729388707326</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729388707326</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
