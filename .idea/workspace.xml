@@ -91,7 +91,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AppFileSplit">
+  <component name="RunManager" selected="Application.AppTextEditor">
     <configuration name="AppBrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TugasBrowserHistory.AppBrowserHistory" />
       <module name="Pemrograman Mahir" />
@@ -111,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TugasFileSplit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TugasTextEditor.AppTextEditor" />
+      <module name="Pemrograman Mahir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TugasTextEditor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TugasTextEditor.TextEditor" />
-      <module name="Pemrograman Mahir" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TugasBrowserHistory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppTextEditor" />
         <item itemvalue="Application.AppFileSplit" />
         <item itemvalue="Application.AppBrowserHistory" />
         <item itemvalue="Application.FileSplitter" />
         <item itemvalue="Application.BrowserHistory" />
-        <item itemvalue="Application.TextEditor" />
       </list>
     </recent_temporary>
   </component>
