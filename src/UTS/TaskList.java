@@ -45,14 +45,14 @@ public class TaskList {
 
     public static void main(String[] args) {
         TaskList taskList = new TaskList();
-        taskList.addTask("Finish project");
-        taskList.addTask("Attend meeting");
-        taskList.addTask("Submit report");
+        taskList.addTask("Kerjakan PR Matematika");
+        taskList.addTask("Belajar untuk Ujian");
+        taskList.addTask("Selesaikan Laporan");
 
         System.out.println("Tasks:");
         taskList.displayTasks();
 
-        taskList.removeTask("Attend meeting");
+        taskList.removeTask("Belajar untuk Ujian");
         System.out.println("Tasks after removal:");
         taskList.displayTasks();
     }

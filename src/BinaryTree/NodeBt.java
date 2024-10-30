@@ -113,10 +113,78 @@ public class NodeBt {
     }
 
     public NodeBt findMax(){
-        if (this.left != null){
-            return this.left.findMax();
+        if (this.right != null){
+            return this.right.findMax();
         } else {
             return this;
+        }
+    }
+
+    public void printInOrder(){
+        if(this.left != null){
+            this.left.printInOrder();
+        }
+        System.out.println(this.data);
+        if (this.right != null){
+            this.right.printInOrder();
+        }
+    }
+
+    public void printPostOrder(){
+        if (this.left != null){
+            this.left.printPostOrder();
+        }
+        if (this.right != null){
+            this.right.printPostOrder();
+        }
+        System.out.println(this.data);
+    }
+
+    public void printPreOrder(){
+        System.out.println(this.data);
+        if (this.left != null){
+            this.left.printPreOrder();
+        }
+        if (this.right != null){
+            this.right.printPreOrder();
+        }
+    }
+
+    public NodeBt remove(int value){
+        if(value == this.data){
+            if (this.left != null && this.right != null){
+                //ada left ada right
+                NodeBt successor = this.right.findMin();
+                NodeBt current = this.remove(successor.data);
+                successor.left = current.left;
+                successor.right = current.right;
+                return successor;
+            } else if (this.left != null){
+                //ada left
+                return this.left;
+            } else if (this.right != null){
+                //ada right
+                return this.right;
+            } else {
+                //leaf
+                return null;
+            }
+
+        } else if (value < this.data){
+            //cek kekiri
+            if (this.left != null){
+                this.left = this.left.remove(value);
+                return this;
+            } else {
+                return null;
+            }
+        } else {
+            if (this.right != null){
+                this.right = this.right.remove(value);
+                return this;
+            } else {
+                return this;
+            }
         }
     }
 }

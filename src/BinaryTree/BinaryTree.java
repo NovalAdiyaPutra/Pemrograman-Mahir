@@ -43,7 +43,7 @@ public class BinaryTree {
     }
 
     public int depth(int value){
-        if(this.root != null){
+        if(this.root == null){
             return -1;
         } else {
             return this.root.depth(value,0);
@@ -51,7 +51,7 @@ public class BinaryTree {
     }
 
     public String path(int value){
-        if(this.root != null){
+        if(this.root == null){
             return "tree kosong";
         } else {
             return root.path(value, "");
@@ -69,6 +69,39 @@ public class BinaryTree {
     public NodeBt findMax(){
         if(this.root != null){
             return this.root.findMax();
+        } else {
+            return null;
+        }
+    }
+
+    public void printInOrder(){
+        if(this.root != null){
+            this.root.printInOrder();
+        } else {
+            System.out.println("Tree Kosong");
+        }
+    }
+
+    public void printPostOrder(){
+        if(this.root != null){
+            this.root.printPostOrder();
+        } else {
+            System.out.println("Tree Kosong");
+        }
+    }
+
+    public void printPreOrder(){
+        if(this.root != null){
+            this.root.printPreOrder();
+        } else {
+            System.out.println("Tree Kosong");
+        }
+    }
+
+    public NodeBt remove(int value){
+        if (this.root != null){
+            this.root = this.root.remove(value);
+            return this.root;
         } else {
             return null;
         }
