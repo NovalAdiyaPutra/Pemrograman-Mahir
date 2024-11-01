@@ -18,7 +18,7 @@ public class Stack {
     }
 
     public void push(int value) {
-        if (this.isFull()) {
+        if (!this.isFull()) {
             this.data[this.top++] = value;
         } else {
             System.out.println("stack sudah penuh");
@@ -26,7 +26,7 @@ public class Stack {
     }
 
     public int pop() {
-        if (this.isEmpty()) {
+        if (!this.isEmpty()) {
             return this.data[--this.top];
         } else {
             System.out.println("stack sudah penuh");

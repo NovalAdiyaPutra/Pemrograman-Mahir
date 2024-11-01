@@ -34,5 +34,26 @@ public class Graph {
         // Inisialisasi vertice awal
         koleksi.push(fromIndex);
 
+        // Selama koleksi tidak kosong
+        while (!koleksi.isEmpty()) {
+
+            // Ambil satu vertice
+            int idVertice = koleksi.pop();
+
+            // Proses
+            System.out.println(this.vertices[idVertice]);
+
+            // Tandai sebagai visited
+            visited[idVertice] = true;
+
+            // Ambil Neighbor yang unvisited
+            for (int i = 0; i < this.vertices.length; i++){
+                if (this.getEdges(idVertice,i) && !visited[i]){
+                    koleksi.push(i);
+                    visited[i] = true;
+                }
+            }
+        }
+
     }
 }
