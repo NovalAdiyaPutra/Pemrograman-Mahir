@@ -1,3 +1,5 @@
+package Penyegaran;
+
 public class OutputB {
     public static void main(String[] args) {
         int a = 10;

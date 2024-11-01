@@ -1,3 +1,5 @@
+package Penyegaran;
+
 public class ContohStatic {
         // Variabel static di tingkat kelas
         static int counter = 0;

@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45b158d4-d5e4-43a5-a06d-61a98523a525" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/AppAvl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/AvlTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AVLTree/NodeAvl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/AppGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UTS/ActivityStack1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UTS/CustomerQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UTS/TaskList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphDFS/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphDFS/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/AppBt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/AppBt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/NodeBt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/NodeBt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UTS/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UTS/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContohStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Penyegaran/ContohStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OutputB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Penyegaran/OutputB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,70 +38,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActivityStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActivityStack1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App1.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AppAvl.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AppBalancedSymbol.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppBrowserHistory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppBt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppFileSplit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppGenericQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppPenumpang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppPlaylist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppQueueArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStack04.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStack4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStackBiasa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStackGeneric.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStackString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppStringQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppTextEditor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array.ElemenTerbesar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMultiDimensi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayMultiDimensi1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BrowserHistory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContohStatic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomerQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomerQueue1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeklarasiArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplikasiArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElemenTerbesar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonaciPerulangan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonaciTailRekursif.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileSplitter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GeserElemen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JadwalKuliah.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OutputB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PamgkatRekursif.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PangkatRekursif.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PerbedaanDuaArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RiwayatBrowser.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskList1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TextEditor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UrutanRekursif.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Intelj/Pemrograman Mahir&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Intelj/Pemrograman Mahir/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActivityStack.executor": "Run",
+    "Application.ActivityStack1.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.App1.executor": "Debug",
+    "Application.AppAvl.executor": "Debug",
+    "Application.AppBalancedSymbol.executor": "Run",
+    "Application.AppBrowserHistory.executor": "Run",
+    "Application.AppBt.executor": "Run",
+    "Application.AppFileSplit.executor": "Run",
+    "Application.AppGenericQueue.executor": "Run",
+    "Application.AppGraph.executor": "Run",
+    "Application.AppPenumpang.executor": "Run",
+    "Application.AppPlaylist.executor": "Run",
+    "Application.AppQueueArray.executor": "Run",
+    "Application.AppStack.executor": "Run",
+    "Application.AppStack04.executor": "Run",
+    "Application.AppStack4.executor": "Run",
+    "Application.AppStackBiasa.executor": "Run",
+    "Application.AppStackGeneric.executor": "Run",
+    "Application.AppStackString.executor": "Run",
+    "Application.AppStringQueue.executor": "Run",
+    "Application.AppTextEditor.executor": "Run",
+    "Application.Array.ElemenTerbesar.executor": "Run",
+    "Application.ArrayMultiDimensi.executor": "Run",
+    "Application.ArrayMultiDimensi1.executor": "Run",
+    "Application.ArrayString.executor": "Debug",
+    "Application.BrowserHistory.executor": "Run",
+    "Application.ContohStatic.executor": "Run",
+    "Application.CustomerQueue.executor": "Run",
+    "Application.CustomerQueue1.executor": "Run",
+    "Application.DeklarasiArray.executor": "Run",
+    "Application.DuplikasiArray.executor": "Run",
+    "Application.ElemenTerbesar.executor": "Run",
+    "Application.FibonaciPerulangan.executor": "Run",
+    "Application.FibonaciTailRekursif.executor": "Run",
+    "Application.FileSplitter.executor": "Run",
+    "Application.GeserElemen.executor": "Run",
+    "Application.JadwalKuliah.executor": "Run",
+    "Application.OutputB.executor": "Run",
+    "Application.PamgkatRekursif.executor": "Debug",
+    "Application.PangkatRekursif.executor": "Debug",
+    "Application.PerbedaanDuaArray.executor": "Run",
+    "Application.RiwayatBrowser.executor": "Run",
+    "Application.TaskList.executor": "Run",
+    "Application.TaskList1.executor": "Run",
+    "Application.TextEditor.executor": "Run",
+    "Application.UrutanRekursif.executor": "Run",
+    "Application.array.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Intelj/Pemrograman Mahir",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Intelj/Pemrograman Mahir/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.AppAvl">
+}]]></component>
+  <component name="RunManager" selected="Application.AppGraph">
     <configuration name="AppAvl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLTree.AppAvl" />
       <module name="Pemrograman Mahir" />
@@ -136,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UTS.CustomerQueue1" />
+    <configuration name="AppGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.AppGraph" />
       <module name="Pemrograman Mahir" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UTS.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppGraph" />
         <item itemvalue="Application.AppAvl" />
         <item itemvalue="Application.AppBt" />
         <item itemvalue="Application.TaskList" />
         <item itemvalue="Application.TaskList1" />
-        <item itemvalue="Application.CustomerQueue1" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +237,8 @@
       <workItem from="1730173504328" duration="3347000" />
       <workItem from="1730255392058" duration="3067000" />
       <workItem from="1730264396281" duration="1131000" />
+      <workItem from="1730265607781" duration="73000" />
+      <workItem from="1730443723709" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -445,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729949632991</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="first">
+      <option name="closed" value="true" />
+      <created>1730265664503</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730265664503</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
