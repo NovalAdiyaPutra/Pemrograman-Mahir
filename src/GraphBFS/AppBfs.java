@@ -1,8 +1,8 @@
-package GraphDFS;
+package GraphBFS;
 
-public class AppDfs {
+public class AppBfs {
     public static void main(String[] args) {
-        GraphDfs graph = new GraphDfs(7);
+        GraphBfs graph = new GraphBfs(7);
         graph.setVertices(0,"A");
         graph.setVertices(1,"B");
         graph.setVertices(2,"C");
@@ -22,6 +22,6 @@ public class AppDfs {
         graph.setEdges(3,6,true); // D ke G
         graph.setEdges(4,5,true); // E ke F
 
-        graph.printDfs(2);
+        graph.printBfs(2);
     }
 }

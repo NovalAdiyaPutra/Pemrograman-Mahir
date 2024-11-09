@@ -1,10 +1,10 @@
 package GraphDFS;
 
-public class Graph {
+public class GraphDfs {
     private String[] vertices;
     private boolean[][] edges;
 
-    public Graph(int n){
+    public GraphDfs(int n){
         this.vertices = new String[n];
         this.edges = new boolean[n][n];
     }
@@ -28,7 +28,7 @@ public class Graph {
 
     public void printDfs(int fromIndex) {
         // Buat koleksi menggunakan stack
-        Stack koleksi = new Stack(this.vertices.length);
+        StackDfs koleksi = new StackDfs(this.vertices.length);
         boolean[] visited = new boolean[this.vertices.length];
 
         // Inisialisasi vertice awal

@@ -1,10 +1,10 @@
 package GraphDFS;
 
-public class Stack {
+public class StackDfs {
     private int[] data;
     private int top;
 
-    public Stack(int n) {
+    public StackDfs(int n) {
         this.data = new int[n];
         this.top = 0;
     }
